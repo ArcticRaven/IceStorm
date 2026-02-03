@@ -1,0 +1,15 @@
+{
+  "Group": "Arctic",
+  "Name": "IceStorm",
+  "Version": "0.1.0",
+  "Description": "ArcticDevs personal lib",
+  "Main": "dev.arctic.icestorm.IceStrom",
+  "Authors": [
+    {
+      "Name": "ArcticDev"
+    }
+  ],
+  "ServerVersion": ">=0.0.1",
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false
+}
