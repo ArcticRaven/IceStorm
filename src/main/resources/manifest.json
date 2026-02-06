@@ -1,7 +1,7 @@
 {
   "Group": "Arctic",
   "Name": "IceStorm",
-  "Version": "0.1.0",
+  "Version": "0.2.0",
   "Description": "ArcticDevs personal lib",
   "Main": "dev.arctic.icestorm.IceStrom",
   "Authors": [

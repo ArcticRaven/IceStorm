@@ -2,6 +2,7 @@ package dev.arctic.icestorm;
 
 import com.hypixel.hytale.server.core.plugin.JavaPlugin;
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
+import dev.arctic.icestorm.corelib.logging.ContextRegistry;
 import lombok.Getter;
 import org.checkerframework.checker.nullness.compatqual.NonNullDecl;
 
@@ -22,6 +23,7 @@ public class IceStorm extends JavaPlugin {
 
     @Override
     protected void start() {
+        ContextRegistry.lock();
 
     }
 

@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "dev.arctic"
-version = "0.1.0"
+version = "0.2.0"
 
 java {
     toolchain {
@@ -24,12 +24,12 @@ dependencies {
     annotationProcessor("org.projectlombok:lombok:1.18.42")
 
     compileOnly("com.hypixel.hytale:Server:2026.01.28-87d03be09")
+    implementation("com.zaxxer:HikariCP:7.0.2")
+
+    implementation("org.xerial.sqlite-jdbc:3.51.1.0")
+    implementation("org.mariadb.jdbc:mariadb-java-client:3.4.1")
 
     api("com.google.code.gson:gson:2.13.2")
-}
-
-tasks.test {
-    useJUnitPlatform()
 }
 
 tasks.javadoc {
@@ -46,4 +46,8 @@ publishing {
             }
         }
     }
+}
+
+tasks.named("build") {
+    dependsOn("publishToMavenLocal")
 }
