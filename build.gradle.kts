@@ -29,6 +29,8 @@ dependencies {
     implementation("org.xerial.sqlite-jdbc:3.51.1.0")
     implementation("org.mariadb.jdbc:mariadb-java-client:3.4.1")
 
+    api("org.apache.pulsar:pulsar-client:3.3.1")
+
     api("com.google.code.gson:gson:2.13.2")
 }
 
