@@ -1,10 +1,9 @@
-package dev.arctic.icestorm.corelib.storage;
+package dev.arctic.icestorm.corelib.storage.sql;
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
 import lombok.Getter;
 
-import javax.sql.DataSource;
 import java.nio.file.Path;
 import java.util.Locale;
 import java.util.Objects;

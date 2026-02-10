@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "dev.arctic"
-version = "0.2.2"
+version = "0.3.0"
 
 java {
     toolchain {
@@ -32,6 +32,7 @@ dependencies {
     implementation("org.xerial:sqlite-jdbc:3.51.1.0")
     implementation("org.mariadb.jdbc:mariadb-java-client:3.4.1")
     implementation("org.apache.pulsar:pulsar-client:4.1.2")
+    implementation("redis.clients:jedis:7.2.0")
     implementation("com.google.code.gson:gson:2.13.2")
 }
 

@@ -1,4 +1,4 @@
-package dev.arctic.icestorm.corelib.storage;
+package dev.arctic.icestorm.corelib.storage.sql;
 
 import lombok.RequiredArgsConstructor;
 
